@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BorderedDetail">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:background">@drawable/detail_border</item>
+        <item name="android:padding">12.0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8.0dp</item>
+    </style>
+</resources>
