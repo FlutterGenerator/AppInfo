@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/white"
-    android:padding="20.0dip"
+    android:background="#FF1B1B1B"
+    android:padding="32dp"
     android:visibility="visible">
 
     <LinearLayout
@@ -16,97 +16,88 @@
 
         <ImageView
             android:id="@+id/dialog_app_icon"
-            android:layout_width="80.0dp"
-            android:layout_height="80.0dp"
-            android:layout_marginBottom="12.0dp"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginBottom="16dp"
             android:contentDescription="App Icon"
             tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/dialog_app_name"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="16.0dp"
-            android:textColor="#ff212121"
-            android:textSize="22.0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textColor="#FFFFFFFF"
+            android:textSize="26sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/detail_package"
-            style="@style/BorderedDetail" />
+            style="@style/TvBorderedDetail" />
 
         <TextView
             android:id="@+id/detail_version"
-            style="@style/BorderedDetail" />
+            style="@style/TvBorderedDetail" />
 
         <TextView
             android:id="@+id/detail_first_installed"
-            style="@style/BorderedDetail" />
+            style="@style/TvBorderedDetail" />
 
         <TextView
             android:id="@+id/detail_last_updated"
-            style="@style/BorderedDetail" />
+            style="@style/TvBorderedDetail" />
 
         <TextView
             android:id="@+id/detail_apk_path"
-            style="@style/BorderedDetail" />
+            style="@style/TvBorderedDetail" />
 
         <TextView
             android:id="@+id/detail_activities"
-            style="@style/BorderedDetail" />
+            style="@style/TvBorderedDetail" />
 
         <TextView
             android:id="@+id/detail_uid"
-            style="@style/BorderedDetail"
-            android:layout_marginBottom="8.0dp" />
+            style="@style/TvBorderedDetail" />
 
         <TextView
             android:id="@+id/detail_target_sdk"
-            style="@style/BorderedDetail"
-            android:layout_marginBottom="8.0dp" />
+            style="@style/TvBorderedDetail" />
 
         <TextView
             android:id="@+id/detail_min_sdk"
-            style="@style/BorderedDetail"
-            android:layout_marginBottom="8.0dp" />
+            style="@style/TvBorderedDetail" />
 
         <TextView
             android:id="@+id/detail_apk_size"
-            style="@style/BorderedDetail"
-            android:layout_marginBottom="8.0dp" />
-
-        <TextView
-            android:id="@+id/detail_full_size"
-            style="@style/BorderedDetail"
-            android:layout_marginBottom="8.0dp" />
+            style="@style/TvBorderedDetail" />
 
         <TextView
             android:id="@+id/detail_installer"
-            style="@style/BorderedDetail"
-            android:layout_marginBottom="16.0dp" />
+            style="@style/TvBorderedDetail"
+            android:layout_marginBottom="20dp" />
 
         <Button
             android:id="@+id/btn_view_permissions"
-            style="@style/BorderedDetail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="2.0dp"
-            android:layout_marginBottom="2.0dp"
-            android:backgroundTint="#ff6200ee"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/detail_border"
+            android:backgroundTint="#FFFFAA3F"
+            android:focusable="true"
+            android:padding="14dp"
             android:text="View Permissions"
-            android:textColor="@color/white"
-            tools:ignore="HardcodedText,VisualLintButtonSize" />
+            android:textColor="#FF000000"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/close_button"
-            style="@style/BorderedDetail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="2.0dp"
-            android:layout_marginBottom="2.0dp"
-            android:backgroundTint="@color/white"
+            android:background="@drawable/detail_border"
+            android:focusable="true"
+            android:padding="14dp"
             android:text="Close"
-            android:textColor="@color/black"
-            tools:ignore="HardcodedText,VisualLintButtonSize,TouchTargetSizeCheck" />
+            android:textColor="#FFFFFFFF"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 </ScrollView>

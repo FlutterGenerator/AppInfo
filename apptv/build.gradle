@@ -3,15 +3,16 @@ plugins {
 }
 
 android {
-    namespace 'dev.retiredgamer.apkinfo'
+    namespace 'dev.retiredgamer.apkinfo.tv'
     compileSdkVersion 36
 
     defaultConfig {
-        applicationId "dev.retiredgamer.apkinfo"
+        applicationId "dev.retiredgamer.apkinfo.tv"
         minSdkVersion 24
         targetSdkVersion 36
         versionCode 3
         versionName "3.0"
+
     }
 
     signingConfigs {
@@ -31,7 +32,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
@@ -39,6 +39,6 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.7.1'
-    implementation 'com.google.android.material:material:1.14.0'
+
+    implementation 'androidx.leanback:leanback:1.2.0'
 }
