@@ -10,6 +10,6 @@
 
 # App Info TV
 
-![](apptv.jpg)
+![](apptv.png)
 ## Download
 <!-- [<img src="./source/coolapk-badge.png" width="323" height="125" />](https://www.coolapk.com/apk/com.absinthe.libchecker) -->
